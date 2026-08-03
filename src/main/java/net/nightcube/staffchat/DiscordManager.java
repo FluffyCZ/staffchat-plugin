@@ -159,10 +159,6 @@ public class DiscordManager extends ListenerAdapter {
 
                         // If we are the handler, delete this system message to keep chat clean
                         if (discordHandler) {
-                            // Wait a bit to ensure other servers received it?
-                            // Actually, they receive it via Gateway, so deletion might remove it from their view if they haven't processed it?
-                            // JDA receives events even if message is deleted quickly? Usually yes.
-                            // Let's delete it after 2 seconds.
                             try {
                                 event.getMessage().delete().queueAfter(2, java.util.concurrent.TimeUnit.SECONDS);
                             } catch (Exception e) {
