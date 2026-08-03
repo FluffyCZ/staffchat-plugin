@@ -1,0 +1,28 @@
+name: staffchat
+version: '1.0-SNAPSHOT'
+main: net.nightcube.staffchat.Staffchat
+api-version: '1.21'
+commands:
+  sc:
+    description: Send a message to staff chat
+    usage: /sc <message>
+    aliases: [staffchat]
+  setnick:
+    description: Set your nickname for staff chat
+    usage: /setnick <nickname>
+  screload:
+    description: Reload the plugin configuration
+    usage: /screload
+permissions:
+  staffchat.use:
+    description: Allows use of staff chat
+    default: op
+  staffchat.see:
+    description: Allows seeing staff chat messages
+    default: op
+  staffchat.setnick:
+    description: Allows setting a nickname
+    default: op
+  staffchat.reload:
+    description: Allows reloading the plugin
+    default: op

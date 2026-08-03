@@ -1,0 +1,14 @@
+discord:
+  token: "YOUR_BOT_TOKEN_HERE"
+  channel-id: "CHANNEL_ID_HERE"
+
+server-name: "SERVER_NAME_HERE"
+discord-handler: false # Enable or disable Discord integration for staff chat (ONLY ON ONE SERVER)
+
+messages:
+  staffchat-format: "&8[&x&8&B&C&0&D&9&lѕ&x&9&A&C&8&D&E&lᴛ&x&A&8&D&0&E&3&lᴀ&x&B&7&D&8&E&7&lꜰ&x&C&5&E&0&E&C&lꜰ&x&D&4&E&7&F&1&lᴄ&x&E&2&E&F&F&6&lʜ&x&F&1&F&7&F&A&lᴀ&x&F&F&F&F&F&F&lᴛ&8] &f%player%: &f%message%"
+  no-permission: "&cYou do not have permission to use this command."
+  usage: "&cUsage: /sc <message>"
+  discord-format: "&8[&x&1&C&6&5&8&6&lᴅ&x&3&3&7&6&9&A&lɪ&x&4&A&8&7&A&E&lѕ&x&6&2&9&8&C&3&lᴄ&x&7&9&A&8&D&7&lᴏ&x&9&0&B&9&E&B&lʀ&x&A&7&C&A&F&F&lᴅ&8] &f%user%: &f%message%"
+  cross-server-format: "&8[&x&8&B&C&0&D&9&lѕ&x&9&A&C&8&D&E&lᴛ&x&A&8&D&0&E&3&lᴀ&x&B&7&D&8&E&7&lꜰ&x&C&5&E&0&E&C&lꜰ&x&D&4&E&7&F&1&lᴄ&x&E&2&E&F&F&6&lʜ&x&F&1&F&7&F&A&lᴀ&x&F&F&F&F&F&F&lᴛ&8] &8[&x&1&C&6&5&8&6&l%server%&8] &f%player%: &f%message%"
+  reload-success: "&8[&x&8&B&C&0&D&9&lѕ&x&9&A&C&8&D&E&lᴛ&x&A&8&D&0&E&3&lᴀ&x&B&7&D&8&E&7&lꜰ&x&C&5&E&0&E&C&lꜰ&x&D&4&E&7&F&1&lᴄ&x&E&2&E&F&F&6&lʜ&x&F&1&F&7&F&A&lᴀ&x&F&F&F&F&F&F&lᴛ&8] &bConfiguration successfully reloaded!"
